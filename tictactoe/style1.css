@@ -1,0 +1,137 @@
+body {
+    font-family: "liberty", sans-serif;
+    background-color: burlywood;
+    height: 100vh;
+    padding-top: 1px;
+    cursor: not-allowed;
+}
+body:hover {
+    background-color: black;
+    box-shadow: 0 0 10px gray,0 0 10px gray,0 0 80px gray,0 0 10px gray;
+
+}
+
+section {
+    text-align: center;
+}
+
+.head{
+    color: wheat;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+    cursor: not-allowed;
+    text-shadow: 2rem 2rem 2rem gray;
+    display: center;
+    
+}
+.head:hover{
+    color: aqua;
+}
+
+.game--title {
+    font-size: 100px;
+    margin-top: 10%;
+    color: wheat;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 2px 2px wheat;
+}
+.game--title:hover {
+    color: aqua;
+    text-shadow: 2px 2px aqua;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+    max-width: 300px;
+    margin: 0 auto ;
+    
+   
+    cursor: not-allowed;
+}
+.game--container:hover {
+    box-shadow: 0 0 10px aqua;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    min-width: 100px;
+    min-height: 100px;
+    box-shadow: 0 0 5px gray, 0 0 400px gray, 0 0 180px gray, 0 0 100px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove whitesmoke;
+    cursor: pointer;
+    background-color: aqua;
+    display: inline-block;
+ 
+    font-size: 60px;
+   
+    color: white;
+    background-color: aqua;
+  
+    transition: all 0.2s ease-in-out;
+    
+}
+.cell:hover {
+    background-color: white;
+    color: aqua;
+}
+
+.game--status {
+    font-size: 25px;
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: 1 em;
+    margin-bottom: 1 em;
+    cursor: not-allowed;
+    text-shadow: 2rem gray;
+    
+}
+.game--status:hover {
+    color: aqua;
+}
+
+
+.game--restart {
+    background-color: darkgray;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: whitesmoke;
+  
+    border: 2px groove whitesmoke;
+    color: aqua;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1em;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1em;
+    cursor: pointer;
+}
+.game--restart:hover {
+    background-color: aqua;
+    color: white;
+    box-shadow: 0 0 10px aqua;
+    background-color: white;
+    color: blanchedalmond;
+    box-shadow: 0 0 10px  aqua,0 0 40px  aqua,0 0 80px  aqua, 0 0 10px  aqua ;
+    transition: 0.2s;
+
+}
